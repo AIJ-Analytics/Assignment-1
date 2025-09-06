@@ -1,0 +1,58 @@
+---
+title: "Assignment 1"
+format: html
+editor: visual
+---
+
+---
+title: "Is reproducibility good enough?"
+author: "Antonio Isa Jakobsen"
+date: last-modified
+date-format: "dddd D MMM, YYYY"
+csl: apa7.csl
+lang: en-GB
+format:
+  html: default
+  typst:
+    papersize: a4
+  pdf:
+    documentclass: article
+    number-sections: true
+    keep-tex: true
+    papersize: A4
+    fig-pos: "H"
+bibliography: reproducibility.bib
+nocite: '@*'
+abstract: "A very short abstract. Put the abstract text here. One or two paragraphs summarising what follows below."
+---
+
+## Introduction
+
+Robust and reliable science is a key topic in today’s job market and will become even more important for future students and professionals. It’s about conducting research that is thorough and trustworthy, with a focus on methodological quality and reproducibility. This text explores what the concept entails, different approaches to it, and the consequences of unreliable research. A concrete example will highlight how using RStudio can make data analysis more efficient and transparent compared to Excel, particularly when working with regression tables. The text concludes with a discussion of relevant research and a reflection on the importance of scientific reliability in education and practice.
+
+## Literature review
+
+Smart stuff from others about the topic.
+
+Use a least 20 citations, a least 5 of them must be new (not from the provided .bib file).
+
+Use both in-line and normal citations.
+
+Example:
+
+@gentleman2005 argues that bla bla bla. On the other hand it's claimed that bla bla [@barbalorenaa.2018; @bartlett2008].
+
+## Discussion of the reseach question
+
+-   Should replicability be the norm or is this to much to ask for now?
+-   Can Quarto documents help with reproducibility?
+-   What problems remains and how can these be solved?
+
+## Conclusion
+
+## References
+
+and
+
+-   Version number and reference to packages used
+-   R version used
