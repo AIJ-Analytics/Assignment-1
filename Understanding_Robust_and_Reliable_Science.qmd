@@ -1,0 +1,62 @@
+---
+title: "Is reproducibility good enough?"
+author: "Antonio Isa Jakobsen"
+date: last-modified
+date-format: "dddd D MMM, YYYY"
+csl: apa7.csl
+lang: en-GB
+format:
+  html: default
+  typst:
+    papersize: a4
+  pdf:
+    documentclass: article
+    number-sections: true
+    keep-tex: true
+    papersize: A4
+    fig-pos: "H"
+bibliography: reproducibility.bib
+nocite: '@*'
+abstract: "A very short abstract. Put the abstract text here. One or two paragraphs summarising what follows below."
+---
+
+## 1.0 Introduction
+
+Robust and reliable science is a key topic in today’s job market and will become even more important for future students and professionals. It’s about conducting research that is thorough and trustworthy, with a focus on methodological quality and reproducibility. This text explores what the concept entails, different approaches to it, and the consequences of unreliable research. A concrete example will highlight how using RStudio can make data analysis more efficient and transparent compared to Excel, particularly when working with regression tables. The text concludes with a discussion of relevant research and a reflection on the importance of scientific reliability in education and practice.
+
+## 2.0 Understanding Robust and Reliable Science
+
+A central question in research is "What exactly is meant by robust and reliable science?". According to @kennethbollen2015, the term refers to research that is reproducible, replicable and generalizable, three principles that form the foundation of scientific reliability.
+
+Reproducibility ensures that previous studies can be recreated using the same data and methods, making the findings verifiable and consistent. Replicability involves testing the reliability of a method by applying the same procedures to new data. Generalizability assesses whether the results of a study can be applied to other contexts or populations beyond the original. [@kennethbollen2015]
+
+Although these concepts are closely related, they represent different dimensions of research quality. Together, they help ensure that scientific results are trustworthy, applicable, and provide a solid basis for further knowledge development.
+
+In section 3.0, the literature review will present examples that explore this topic in greater depth, offering multiple perspectives on what constitutes robust and reliable science.
+
+## 3.0 Literature review
+
+Smart stuff from others about the topic.
+
+Use a least 20 citations, a least 5 of them must be new (not from the provided .bib file).
+
+Use both in-line and normal citations.
+
+Example:
+
+@gentleman2005 argues that bla bla bla. On the other hand it's claimed that bla bla [@barbalorenaa.2018; @bartlett2008].
+
+## 4.0 Discussion of the reseach question
+
+-   Should replicability be the norm or is this to much to ask for now?
+-   Can Quarto documents help with reproducibility?
+-   What problems remains and how can these be solved?
+
+## 5.0 Conclusion
+
+## 6.0 References
+
+@kennethbollen2025
+
+-   Version number and reference to packages used
+-   R version used
